@@ -1,0 +1,30 @@
+{
+  "name": "next-sse-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "@microsoft/fetch-event-source": "^2.0.1",
+    "@types/node": "18.15.3",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "cors": "^2.8.5",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "express": "4.17.0",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "recharts": "^2.4.3",
+    "typescript": "4.9.5"
+  },
+  "devDependencies": {
+    "prop-types": "^15.8.1"
+  }
+}
