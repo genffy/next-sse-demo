@@ -7,7 +7,7 @@ As we all know, nextjs support stream have two ways:
 - API Routes with edge runtime, but have some limit [unsupported-apis](https://nextjs.org/docs/api-reference/edge-runtime#unsupported-apis)
 - router handler [streaming](https://beta.nextjs.org/docs/routing/route-handlers#streaming)
 
-If we connect the api to a simple nodejs service, sse can be achieved with `res.write`.
+If we connect the api to a simple nodejs service, sse can be achieved with [`res.write`](./server.js#L15-L29), but API router with [default runtime](https://beta.nextjs.org/docs/rendering/edge-and-nodejs-runtimes#segment-runtime-option)(nodejs) not.
 
 So why? What does nextjs do on API Routes with nodejs runtime?
 
