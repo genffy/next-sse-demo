@@ -6,8 +6,8 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/:path((?!sse$).*)',
-        permanent: false,
+        source: '/',
+        permanent: true,
         destination: '/sse/fetchData',
       },
     ]
